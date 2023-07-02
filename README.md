@@ -1,11 +1,10 @@
-# hello-reason
+# graph-dijkstra
 
-[![Build Status](https://dev.azure.com/esy-ocaml/esy-ocaml/_apis/build/status/esy-ocaml.hello-reason?branchName=master)](https://dev.azure.com/esy-ocaml/esy-ocaml/_build/latest?definitionId=1?branchName=master)
+[![Build Status](https://dev.azure.com/esy-ocaml/esy-ocaml/_apis/build/status/esy-ocaml.graph-dijkstra?branchName=master)](https://dev.azure.com/esy-ocaml/esy-ocaml/_build/latest?definitionId=1?branchName=master)
 
 A project which demonstrates a Reason workflow with [Esy][].
 
 [Esy]: https://github.com/esy-ocaml/esy
-
 
 ## Usage
 
@@ -59,7 +58,6 @@ Shell into environment:
 
     % esy shell
 
-
 ## Create Prebuilt Release:
 
 `esy` allows creating prebuilt binary packages for your current platform, with
@@ -70,13 +68,14 @@ no dependencies.
     % npm publish
 
 ## Continuous Integration:
-`hello-reason` includes CI configuration for Azure
+
+`graph-dijkstra` includes CI configuration for Azure
 [DevOps](https://dev.azure.com) pipelines out of the box.
 
 - Create your Azure DevOps account.
 - Add a new project, and point that new Azure DevOps project to your github
   repo that includes the CI (`./azure-pipelines.yml` and the `.ci/` directory)
-  from `hello-reason`.
+  from `graph-dijkstra`.
 - Create a new Pipeline within that project.
   - When asked how to configure the new pipeline, select the option to use
     existing configuration inside the repo.
@@ -87,4 +86,3 @@ requests to any branch with those names will be fast, once you have landed at
 least one commit to that branch. The first time you submit a pull request to
 one of those branches, the builds will be slow but then subsequent pull
 requests will be faster once a pull request is merged to it.
-

@@ -1,5 +1,5 @@
 {
-  "name": "hello-reason",
+  "name": "graph-dijkstra",
   "version": "0.1.0",
   "description": "Example Reason Esy Project",
   "license": "MIT",
@@ -25,7 +25,7 @@
   "dependencies": {
     "@opam/dune": "*",
     "@opam/reason": "*",
-    "ocaml": "4.12.x"
+    "ocaml": "4.14.x"
   },
   "devDependencies": {
     "@opam/ocaml-lsp-server": "*",
